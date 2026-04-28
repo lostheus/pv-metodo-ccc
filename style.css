@@ -1007,6 +1007,23 @@ section {
     opacity: 0.8;
 }
 
+.parcelas-destaque {
+    background-color: rgba(46, 107, 53, 0.1);
+    border: 2px dashed var(--verde-cta);
+    color: var(--texto-titulo);
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.parcelas-destaque strong {
+    color: var(--verde-cta);
+    font-size: 24px;
+    font-weight: 800;
+}
+
 .pricing-features {
     text-align: left;
     margin-bottom: 35px;
